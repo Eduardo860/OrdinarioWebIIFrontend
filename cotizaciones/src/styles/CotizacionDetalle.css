@@ -1,0 +1,77 @@
+    .cotizacion-detalle-container {
+    padding: 20px;
+    background-color: var(--color-bg-light);
+    }
+
+    .cotizacion-detalle-title {
+    font-size: 2rem;
+    color: var(--color-primary);
+    margin-bottom: 20px;
+    }
+
+    .cotizacion-detalle-info {
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 20px;
+    background-color: var(--color-white);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+
+    .cotizacion-notas-edit textarea {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 8px;
+    border: 1px solid var(--color-border);
+    font-size: 1rem;
+    background-color: var(--color-bg-light);
+    }
+
+    .cotizacion-notas-edit button {
+    align-self: flex-start;
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    }
+
+    .cotizacion-notas-edit button:hover {
+    background-color: #ea580c;
+    }
+
+    .button-cancel {
+    align-self: flex-start;
+    background: #eee;
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 10px;
+    }
+
+    .button-cancel:hover {
+    background-color: #ddd;
+    }
+
+    .cotizacion-detalle-subtitle {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: var(--color-primary);
+    }
+
+    .cotizacion-detalle-items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+    }

@@ -1,0 +1,103 @@
+    .clientes-container {
+    padding: 20px;
+    background-color: var(--color-bg-light);
+    }
+
+    .clientes-title {
+    font-size: 2rem;
+    color: var(--color-primary);
+    margin-bottom: 20px;
+    }
+
+    .clientes-form {
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: var(--color-white);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    }
+
+    .clientes-form input {
+    width: 100%;
+    }
+
+    .clientes-form button[type="submit"] {
+    align-self: flex-start;
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    }
+
+    .clientes-form button[type="submit"]:hover {
+    background-color: #ea580c;
+    }
+
+    .button-cancel {
+    align-self: flex-start;
+    background: #eee;
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    }
+
+    .button-cancel:hover {
+    background-color: #ddd;
+    }
+
+    .clientes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    gap: 16px;
+    }
+
+    .clientes-card {
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 16px;
+    background-color: var(--color-white);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .clientes-buttons {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+    }
+
+    .clientes-buttons button {
+    flex: 1;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    }
+
+    .clientes-buttons button:first-child {
+    background-color: var(--color-primary-light);
+    color: var(--color-white);
+    }
+
+    .clientes-buttons button:first-child:hover {
+    background-color: var(--color-primary);
+    }
+
+    .clientes-buttons button:last-child {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    }
+
+    .clientes-buttons button:last-child:hover {
+    background-color: #ea580c;
+    }

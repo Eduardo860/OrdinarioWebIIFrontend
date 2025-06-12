@@ -1,0 +1,64 @@
+    .cotizaciones-container {
+    padding: 20px;
+    background-color: var(--color-bg-light);
+    }
+
+    .cotizaciones-title {
+    font-size: 2rem;
+    color: var(--color-primary);
+    margin-bottom: 20px;
+    }
+
+    .cotizaciones-filtros {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    }
+
+    .cotizaciones-form {
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: var(--color-white);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .cotizaciones-form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 10px;
+    }
+
+    .cotizaciones-productos {
+    margin-top: 20px;
+    }
+
+    .cotizaciones-producto-item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 8px;
+    }
+
+    .cotizaciones-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    gap: 16px;
+    }
+
+    .button-secondary {
+    align-self: flex-start;
+    background-color: var(--color-primary-light);
+    color: var(--color-white);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    }
+
+    .button-secondary:hover {
+    background-color: var(--color-primary);
+    }

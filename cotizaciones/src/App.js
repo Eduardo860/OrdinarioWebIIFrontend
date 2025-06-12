@@ -1,12 +1,12 @@
 // src/App.jsx
 import React, { useState, useEffect } from 'react';
 import AppRouter from './router/router';
+import '../src/App.css'
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [currentUser, setCurrentUser] = useState(null);
 
-  // Chequeo inicial de sesión
   useEffect(() => {
     const token = localStorage.getItem('token');
     const user = localStorage.getItem('user');
@@ -16,7 +16,6 @@ function App() {
     }
   }, []);
 
-  // Vigilar borrado manual de token/user
   useEffect(() => {
     const interval = setInterval(() => {
       const token = localStorage.getItem('token');
